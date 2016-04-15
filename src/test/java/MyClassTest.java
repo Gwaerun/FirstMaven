@@ -20,4 +20,9 @@ public class MyClassTest {
     public void onePlusOne() {
         assertThat(myClass.add(1, 1), is(2));
     }
+
+    @Test
+    public void onePlusTwo() {
+        assertThat(myClass.add(1, 2), is(3));
+    }
 }

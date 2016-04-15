@@ -12,6 +12,6 @@ public class MyClass {
      */
     public int add(int a, int b) throws RuntimeException {
 
-        return 2;
+        return a + b;
     }
 }
